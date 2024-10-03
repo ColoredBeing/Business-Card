@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif, system-ui;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg, #9c27b0, #0ac7c7);
+}
+.profile-card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 370px;
+    width: 100%;
+    background: #fff;
+    border-radius: 24px;
+    padding: 25px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.images {
+    position: relative; /* For positioning */
+    height: 150px; 
+    width: 150px; 
+    border-radius: 50%;
+    background-color: #ff000d;
+    padding: 3px;
+    margin-bottom: 10px;
+}
+
+.images .profile-image {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.profile-card .text-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text-data .name{
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.text-data .job{
+    font-size: 16px;
+    font-weight: 300;
+}
+.media-buttons{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.link{
+    margin: 0 10px;
+    font-size: 35px;
+    color: #BF40BF;
+}
+
+.name .bx{
+    color: rgb(239, 255, 19);
+    font-size: 25px;
+
+}
+
+.design{
+    color: red;
+}
